@@ -70,14 +70,6 @@ public class Cust {
         
     }  
     
-    public String getAccInfo() {
-        
-        String temp = accNum + " " + secCode; 
-        
-        return temp; 
-        
-    }
-    
     public int getAccNum() {
         
         int temp = accNum; 
@@ -125,11 +117,6 @@ public class Cust {
         this.custEmail = custEmail;
         
     }  
-    
-    public void setAccInfo() {
- 
-        
-    }
 
     private void setSecCode(int secCode) {
         
