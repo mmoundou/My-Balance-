@@ -17,6 +17,13 @@ public class Cust {
         secCode = -1; 
         
     }
+
+    public Cust(int accNum, int secCode) {
+
+        this.accNum = accNum; 
+        this.secCode = secCode; 
+
+    }
     
     public Cust(String custName, String CustAddress, String custPhoneNum,
                 String custEmail, String custPwd, int accNum, int secCode) {
@@ -25,6 +32,12 @@ public class Cust {
     
     }
     
+    public void greetRep() {
+        
+        System.out.println("Hello!");
+
+    }
+
     public String getCustName() {
         
         String temp = custName;
@@ -52,15 +65,6 @@ public class Cust {
     public String getCustEmail() {
         
         String temp = custEmail; 
-        
-        return temp; 
-        
-    }
-    
-    public String getCustInfo() {
-        
-        String temp = custName + "\n" + custAddress + "\n" + custPhoneNum
-                                        + "\n" + custEmail; 
         
         return temp; 
         
@@ -120,12 +124,6 @@ public class Cust {
         
         this.custEmail = custEmail;
         
-    }
-    
-    public void setCustInfo() {
-        
-        
-        
     }  
     
     public void setAccInfo() {
@@ -133,32 +131,16 @@ public class Cust {
         
     }
 
-    
-    public void setSecCode(int secCode) {
+    private void setSecCode(int secCode) {
         
         this.secCode = secCode;  
         
     }
     
-    public void setPwd(String custPwd) {
+    private void setPwd(String custPwd) {
         
         this.custPwd = custPwd; 
         
-    }
-    
-    public void interact(int selection) {      
-    }
-    
-    public void endInteraction() {       
-    }
-    
-    public void requestAccountBalance() {
-    }
-    
-    public void requestAccountStatement() {
-    }
-    
-    public void resetPassword() {  
     }
     
 }
