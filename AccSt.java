@@ -100,6 +100,17 @@ class AccSt {
                     /*resetPassword(); 
                     break;*/
 
+                    int secCode; 
+                    String pd; 
+                    
+                    System.out.print("\nEnter your security code: "); 
+                    secCode = input.nextInt(); 
+                    System.out.print("Enter new password: "); 
+                    pd = input.next(); 
+                    System.out.print("Enter password again: ");
+                    pd = input.next();
+                    temp.getAcc().setAccPwd(pd);
+
                 }
             
                 //default: 

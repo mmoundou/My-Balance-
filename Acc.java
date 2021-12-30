@@ -60,14 +60,14 @@ class Acc {
         
             }
     
-            boolean setAccPwd() {
+            boolean setAccPwd(String accPwd) {
                 
                 boolean success = false; 
                 
                 return success; 
                 
             }
-            
+
             void deposit(int deposit) {
                 
                 accBal += deposit; 
