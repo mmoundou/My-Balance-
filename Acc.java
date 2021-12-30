@@ -60,6 +60,14 @@ class Acc {
         
             }
     
+            boolean setAccPwd() {
+                
+                boolean success = false; 
+                
+                return success; 
+                
+            }
+            
             void deposit(int deposit) {
                 
                 accBal += deposit; 
